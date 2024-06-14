@@ -4,7 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
-import pizzaSvg from "/src/assets/xdefianticon.ico";
+import XdefiantSVG from "/src/assets/xdefianticon.ico";
+import XDefiantBackground from "/src/assets/xdefiantitaliabackground.jpg";
 
 
 function Header({isPage}) {

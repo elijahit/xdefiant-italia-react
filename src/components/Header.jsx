@@ -17,7 +17,7 @@ function Header({isPage}) {
           <Link className="text-decoration-none text-white" to={"/"}>
             <img
               alt=""
-              src={pizzaSvg}
+              src={XdefiantSVG}
               width="30"
               height="30"
               className="d-inline-block align-top"

@@ -4,7 +4,7 @@ import "./ErrorPage.css";
 import error404Image from "/src/assets/404.svg"
 
 function ErrorPage() {
-  document.title = "Pizzeria - Errore"
+  document.title = "XDefiant Italia - Errore"
   return(
     <>
       <Header />

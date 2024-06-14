@@ -1,0 +1,20 @@
+footer {  
+  background-color: var(--colorPrincipal);
+  color: var(--whiteColor);
+}
+
+#navigation-secondary ul li a:hover {
+  color: var(--colorSecondary) !important;
+}
+
+.copyrigth-hover:hover {
+  color: var(--colorSecondary) !important;
+}
+
+@media screen and (min-width: 996px) {
+  .social-navigation li a i:hover{
+    color: darkslategray !important;
+    font-size: 40px !important;
+    transition: 0.2 ease-in-out;
+  }
+}

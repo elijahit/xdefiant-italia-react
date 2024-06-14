@@ -1,0 +1,70 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* PALETTE */
+
+  --colorPrincipal: #802F24;
+  --colorSecondary: #904A51;
+  --colorTerthiary: #9C5F73;
+  --whiteColor: #fff;
+  
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.opacity-no {
+  opacity: 0;
+}
+
+.opacity-no-left {
+  position: relative;
+  left: -200px;
+  opacity: 0;
+}
+
+.opacity-timing-left {
+  opacity: 100%;
+  left: 0;
+  transition: opacity 1s ease-in-out, left 0.7s ease-in-out;
+}
+
+.opacity-no-right {
+  position: relative;
+  right: -200px;
+  opacity: 0;
+}
+
+.opacity-timing-right {
+  opacity: 100%;
+  right: 0;
+  transition: opacity 1s ease-in-out, right 0.7s ease-in-out;
+}
+
+.opacity-timing {
+  opacity: 100;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.bg-personality {
+  background-color: var(--colorPrincipal);
+}

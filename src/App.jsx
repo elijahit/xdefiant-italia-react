@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Main from "./components/MainPage";
 
 function App() {
-  document.title = "Pizzeria - Home"
+  document.title = "XDefiant Italia - Home"
 
   return (
     <>

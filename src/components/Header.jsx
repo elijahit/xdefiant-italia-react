@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
-import pizzaSvg from "/src/assets/pizza.svg";
+import pizzaSvg from "/src/assets/xdefianticon.ico";
 
 
 function Header({isPage}) {
@@ -21,7 +21,7 @@ function Header({isPage}) {
               height="30"
               className="d-inline-block align-top"
             />{" "}
-            Pizzeria Logo
+            XDefiant Italia
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,14 +30,8 @@ function Header({isPage}) {
             <Link className={isPage == "home" ? "link-navbar text-decoration-none text-white" : "link-navbar text-decoration-none text-white-50"} to={"/"}>
               Home
             </Link>
-            <Link className={isPage == "menu" ? "link-navbar text-decoration-none text-white" : "link-navbar text-decoration-none text-white-50"} to={"/menu"}>
-              Menù
-            </Link>
             <Link className={isPage == "about" ? "link-navbar text-decoration-none text-white" : "link-navbar text-decoration-none text-white-50"} to={"/about"}>
               Chi siamo
-            </Link>
-            <Link className={isPage == "dove-siamo" ? "link-navbar text-decoration-none text-white" : "link-navbar text-decoration-none text-white-50"} to={"/dove-siamo"}>
-              Dove siamo
             </Link>
           </Nav>
         </Navbar.Collapse>

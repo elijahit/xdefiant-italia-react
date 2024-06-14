@@ -1,7 +1,7 @@
 import "./MainPage.css";
 import HeroSection from "./HeroSection";
-import HourSection from "./HourSection";
-import StaffSection from "./StaffSection";
+import PartnerSection from "./PartnerSection";
+import DiscordSection from "./DiscordSection";
 import DeliverySection from "./DeliverySection";
 
 function Main() {
@@ -9,8 +9,8 @@ function Main() {
     <main>
       <HeroSection />
       <DeliverySection />
-      <StaffSection />
-      <HourSection />
+      <DiscordSection />
+      <PartnerSection />
     </main>
   );
 }

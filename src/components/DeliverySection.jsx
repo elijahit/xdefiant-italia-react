@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./DeliverySection.css";
-import pizzaDeliveryImage from "/src/assets/pizzadelivery.png";
+import characterConcept from "/src/assets/Kersey_Concept.webp";
 
 function DeliverySection() {
   const [divOpacity, setDivOpacity] = useState("opacity-no");
@@ -25,19 +25,17 @@ function DeliverySection() {
     <>
       <div onLoad={runObserver()} id="observer-delivery" className="container mb-5">
         <div className={"delivery-style mb-4 "+ divOpacityLeft}>
-          <h2 className="fs-1 fw-bold m-0 p-0 text-center text-lg-start mb-1 mb-lg-0">STAY HOME</h2>
-          <p className="fs-2 fw-bold p-0 m-0 text-center text-lg-start">WE DELIVERY</p>
+          <h2 className="fs-1 fw-bold m-0 p-0 text-center text-lg-start mb-1 mb-lg-0">LA COMMUNITY</h2>
+          <p className="fs-2 fw-bold p-0 m-0 text-center text-lg-start">ITALIANA</p>
         </div>
         <div className="row">
           <div className={"col-12 col-lg-6 "+ divOpacity}>
             <p className="fs-5">
-              <span className="fw-bold fs-4">I</span>l vostro tempo è prezioso, e lo comprendiamo. Con il nostro servizio di consegna, garantiamo tempi rapidi e puntuali, in modo da poter godere della vostra pizza appena sfornata nel momento in cui ne avete più voglia.
+              <span className="fw-bold fs-4">S</span>iamo la community italiana di XDefiant, attiva dal 2021, dedicata a tenere i giocatori aggiornati su novità, eventi speciali e competizioni del gioco. Utilizziamo vari canali social per informare la community e creare un ambiente accogliente dove condividere esperienze, strategie e partecipare a tornei. Invitiamo tutti i fan a unirsi a noi per rimanere aggiornati e far parte di una community vibrante e attiva.
             </p>
-            <p className="fs-5"><span className="fw-bold">Assaporate il Gusto a Casa Vostra</span>: Le Consegne dalla Nostra Pizzeria</p>
           </div>
           <div className={"col-12 col-lg-6 d-flex flex-column align-items-center " + divOpacityRight}>
-            <img src={pizzaDeliveryImage} width="200" className="img-fluid" alt="" />
-            <p className="fw-bold fs-3"><i className="bi bi-telephone-fill"></i> 000 000 0000</p>
+            <img src={characterConcept} width="300"alt="" />
           </div>
         </div>
       </div>

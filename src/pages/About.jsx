@@ -2,11 +2,14 @@ import "./About.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
+import {Helmet} from "react-helmet";
 
 function About() {
-  document.title = "Pizzeria - Chi Siamo"
   return (
     <>
+      <Helmet>
+        <title>XDefiant Italia - Chi siamo</title>
+      </Helmet>
       <Header isPage="about" />
       <HeroSection/>
       <div className="container mt-2 mb-5">

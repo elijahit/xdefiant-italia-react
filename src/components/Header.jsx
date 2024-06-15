@@ -16,7 +16,7 @@ function Header({isPage}) {
         <Navbar.Brand>
           <Link className="text-decoration-none text-white" to={"/"}>
             <img
-              alt=""
+              alt="Logo XDefiant Italia"
               src={XdefiantSVG}
               width="30"
               height="30"

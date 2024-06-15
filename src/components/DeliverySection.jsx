@@ -25,8 +25,8 @@ function DeliverySection() {
     <>
       <div onLoad={runObserver()} id="observer-delivery" className="container mb-5">
         <div className={"delivery-style mb-4 "+ divOpacityLeft}>
-          <h2 className="fs-1 fw-bold m-0 p-0 text-center text-lg-start mb-1 mb-lg-0">LA COMMUNITY</h2>
-          <p className="fs-2 fw-bold p-0 m-0 text-center text-lg-start">ITALIANA</p>
+          <h1 className="fs-1 fw-bold m-0 p-0 text-center text-lg-start mb-1 mb-lg-0">LA COMMUNITY
+          <div className="fs-2 fw-bold p-0 m-0 text-center text-lg-start">ITALIANA</div></h1>
         </div>
         <div className="row">
           <div className={"col-12 col-lg-6 "+ divOpacity}>

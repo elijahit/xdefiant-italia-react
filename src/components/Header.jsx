@@ -31,9 +31,7 @@ function Header({isPage}) {
             <Link className={isPage == "home" ? "link-navbar text-decoration-none text-white" : "link-navbar text-decoration-none text-white-50"} to={"/"}>
               Home
             </Link>
-            <Link className={isPage == "about" ? "link-navbar text-decoration-none text-white" : "link-navbar text-decoration-none text-white-50"} to={"https://discord.com/servers/xdefiant-italia-1124809941744619602"}>
-              Discord
-            </Link>
+            <a className="link-navbar text-decoration-none text-white" href="https://discord.com/servers/xdefiant-italia-1124809941744619602">Discord</a>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./DiscordSection.css";
 import StaffCard from "./StaffCard";
-import discordLogo from "/src/assets/discord-logo.png";
+import discordLogo from "/src/assets/discord-logo.webp";
 
 function StaffSection() {
 

@@ -25,7 +25,7 @@ function StaffSection() {
           <h2 className="text-center mb-4 text-white">La nostra community su Discord</h2>
           <div className="col-12 d-flex flex-column align-items-center">
             <a href="https://discord.com/servers/xdefiant-italia-1124809941744619602">
-              <img src={discordLogo} width="300" alt="Logo di Discord" className="" />
+              <img src={discordLogo} width="300" height="200" alt="Logo di Discord" className="" />
             </a>
             <p className="text-white">Unisciti alla nostra community su Discord e scopri un mondo di appassionati di XDefiant! Sulla nostra piattaforma. Trova giocatori con cui confrontarti e giocare insieme</p>
           </div>

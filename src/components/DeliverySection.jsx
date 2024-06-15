@@ -24,7 +24,7 @@ function DeliverySection() {
   return (
     <>
       <div onLoad={runObserver()} id="observer-delivery" className="container mb-5">
-        <div className={"delivery-style mb-4 "+ divOpacityLeft}>
+        <div className={"delivery-style mb-1 "+ divOpacityLeft}>
           <h1 className="fs-1 fw-bold m-0 p-0 text-center text-lg-start mb-1 mb-lg-0">LA COMMUNITY 
           <div className="fs-2 fw-bold p-0 m-0 text-center text-lg-start">ITALIANA</div></h1>
         </div>
@@ -35,7 +35,7 @@ function DeliverySection() {
             </p>
           </div>
           <div className={"col-12 col-lg-6 d-flex flex-column align-items-center " + divOpacityRight}>
-            <img src={characterConcept} width="300"alt="Immagine del personaggio" />
+            <img src={characterConcept} width="250" height="400" alt="Immagine di Kersey" />
           </div>
         </div>
       </div>

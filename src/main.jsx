@@ -6,6 +6,14 @@ import './index.css'
 import About from './pages/About.jsx';
 import Menu from './pages/Menu.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
+import PenalitaJump from './pages/posts/PenalitaJump.jsx';
+
+const posts = [
+  {
+    path: "/posts/penalita-spamming",
+    element: <PenalitaJump/>
+  }
+]
 
 const router = createBrowserRouter([
   {
@@ -17,10 +25,7 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />
   },
-  {
-    path: "/notwork",
-    element: <Menu />
-  }
+  ...posts
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

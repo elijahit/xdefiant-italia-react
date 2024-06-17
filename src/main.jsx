@@ -6,12 +6,19 @@ import './index.css'
 import About from './pages/About.jsx';
 import Menu from './pages/Menu.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
+
+// POST IMPORT
 import PenalitaJump from './pages/posts/PenalitaJump.jsx';
+import PatchY1S03 from './pages/posts/PatchY1S03.jsx';
 
 const postElement = [
   {
     path: "posts/penalita-spamming",
     element: <PenalitaJump />
+  },
+  {
+    path: "posts/patch-y1s03",
+    element: <PatchY1S03 />
   }
 ]
 
@@ -33,7 +40,6 @@ const router = createBrowserRouter([
       ...postElement
     ],
   },
-  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

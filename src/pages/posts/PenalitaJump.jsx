@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import HeroSection from "../../components/HeroSection";
 import "./PenalitaJump.css";
 import image1 from "../../assets/img-penalitajump-1.jpg";
+import { Outlet } from "react-router-dom";
 
 function PenalitaJump() {
   return (
@@ -38,6 +39,7 @@ function PenalitaJump() {
         </div>
       </div>
       <Footer />
+      <Outlet/>
     </>
   );
 }

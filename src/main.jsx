@@ -1,19 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from './App.jsx'
 import './index.css'
 import About from './pages/About.jsx';
 import Menu from './pages/Menu.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
-import PenalitaJump from './pages/posts/PenalitaJump.jsx';
-
-const posts = [
-  {
-    path: "/posts/penalita-spamming",
-    element: <PenalitaJump/>
-  }
-]
+import Posts from './pages/Posts.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,7 +18,10 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />
   },
-  ...posts
+  {
+    path: "/posts/*",
+    element: <Posts/>,
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

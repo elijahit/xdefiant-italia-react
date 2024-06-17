@@ -13,6 +13,7 @@
 @import "../../node_modules/bootstrap/scss/navbar";
 @import "../../node_modules/bootstrap/scss/buttons";
 @import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/dropdown";
 
 // BOTTONE PRIMARY OVERRIDE
 .btn-primary {
@@ -28,3 +29,37 @@
   --bs-btn-active-bg: #{shade-color(#546486, 20%)};
   --bs-btn-active-border-color: #{shade-color(#546486, 20%)};
 }
+
+
+// scss-docs-start custom-color-mode
+[data-bs-theme="custom"] {
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: $gray-600;
+  }
+  --bs-body-color: var(--bs-white);
+  --bs-body-color-rgb: #{to-rgb($white)};
+  --bs-body-bg: var(--bs-blue);
+  --bs-body-bg-rgb: #{to-rgb($blue)};
+  --bs-tertiary-bg: #{#546486};
+  --bs-link-color-rgb: #{to-rgb($gray-200)};
+
+  .dropdown-menu {
+    --bs-dropdown-bg: #{mix(#6e7992, #546486)};
+    --bs-dropdown-link-active-bg: #{#546486};
+  }
+
+  .btn-secondary {
+    --bs-btn-bg: #{mix($gray-600, $blue-400)};
+    --bs-btn-border-color: #{rgba($white, .25)};
+    --bs-btn-hover-bg: #{darken(mix($gray-600, $blue-400), 5%)};
+    --bs-btn-hover-border-color: #{rgba($white, .25)};
+    --bs-btn-active-bg: #{darken(mix($gray-600, $blue-400), 10%)};
+    --bs-btn-active-border-color: #{rgba($white, .5)};
+    --bs-btn-focus-border-color: #{rgba($white, .5)};
+    --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
+  }
+}
+// scss-docs-end custom-color-mode

@@ -34,6 +34,7 @@ function Header({ isPage }) {
             <NavDropdown title="Articoli" id="basic-nav-dropdown" data-bs-theme="custom">
               <NavDropdown.Item href="/posts/penalita-spamming">Penalità per il Jump e Crouch Spamming</NavDropdown.Item>
               <NavDropdown.Item href="/posts/patch-y1s03">XDefiant Patch Y1S0.3</NavDropdown.Item>
+              <NavDropdown.Item href="/posts/patch-y1s04">XDefiant Patch Y1S0.4</NavDropdown.Item>
             </NavDropdown>
             <Link className={isPage == "about" ? "link-navbar text-decoration-none text-white" : "link-navbar text-decoration-none text-white-50"} to={"/about"}>
               Chi siamo

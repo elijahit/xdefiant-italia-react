@@ -10,6 +10,7 @@ import ErrorPage from './pages/ErrorPage.jsx';
 // POST IMPORT
 import PenalitaJump from './pages/posts/PenalitaJump.jsx';
 import PatchY1S03 from './pages/posts/PatchY1S03.jsx';
+import PatchY1S04 from './pages/posts/PatchY1S04.jsx';
 
 const postElement = [
   {
@@ -19,6 +20,10 @@ const postElement = [
   {
     path: "posts/patch-y1s03",
     element: <PatchY1S03 />
+  },
+  {
+    path: "posts/patch-y1s04",
+    element: <PatchY1S04 />
   }
 ]
 
